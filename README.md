@@ -26,6 +26,13 @@ Builds up a retry strategy step by step, using a Chuck Norris joke API as the fl
 | `con2.py` | Injecting config and a logger into a service class |
 | `con_error.py` | Adding retries and error handling to the injected API client |
 
+### `factory/` — the factory pattern
+
+| File | What it shows |
+| --- | --- |
+| `1.py` | An `AnimalFactory` that returns a `Dog` or `Cat` from a type string |
+| `2.py` | A `DatabaseFactory` that picks a SQLite or PostgreSQL class the same way |
+
 ### `email_tools/` and `before.py`
 
 A small `EmailService` class and a `before.py` script that uses it alongside some dataclasses (`Stats`, `Address`, ...). The email values in `before.py` are placeholders.
