@@ -33,6 +33,12 @@ Builds up a retry strategy step by step, using a Chuck Norris joke API as the fl
 | `1.py` | An `AnimalFactory` that returns a `Dog` or `Cat` from a type string |
 | `2.py` | A `DatabaseFactory` that picks a SQLite or PostgreSQL class the same way |
 
+### `adapter/` — the adapter pattern
+
+| File | What it shows |
+| --- | --- |
+| `pattern-adapter.py` | Adapting a `SendGridEmailService` to the `NotificationService` interface so `OrderService` can use it unchanged |
+
 ### `email_tools/` and `before.py`
 
 A small `EmailService` class and a `before.py` script that uses it alongside some dataclasses (`Stats`, `Address`, ...). The email values in `before.py` are placeholders.
